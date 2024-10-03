@@ -163,7 +163,7 @@ console.log()
       <mesh geometry={nodes.Plane059.geometry} material={materials.rims} position={[0, 0.841, 0]} />
       <mesh geometry={nodes.Plane058.geometry} material={materials.headlights} position={[0, 0.841, 0]} />
       <mesh geometry={nodes.Body.geometry} position={[0, 0.841, 0]}>
-        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+      <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
           <canvasTexture
             flipY={false}
             wrapS={1000}
